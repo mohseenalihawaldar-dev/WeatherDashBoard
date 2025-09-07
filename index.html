@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>Weather Dashboard</h1>
+        <div class="search-box">
+          <input type="text" id="cityInput" placeholder="Enter city..." />
+          <button id="searchBtn">Search</button>
+          <button id="unitToggle">°C / °F</button>
+          <button id="saveCity">Save City</button>
+          <button id="themeToggle">🌙/☀️</button>
+        </div>
+        <div class="favorites" id="favorites"></div>
+      </header>
+
+      <section class="current-weather" id="currentWeather"></section>
+      <section class="forecast" id="forecast"></section>
+      <div id="weatherTip"></div>
+
+      <!-- Responsive chart -->
+      <div class="chart-container">
+        <canvas id="hourlyChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="weatherModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalDetails"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

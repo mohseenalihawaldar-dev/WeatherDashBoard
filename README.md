@@ -2,8 +2,8 @@
 
 A feature-rich weather dashboard that provides real-time weather data, a 5-day forecast, and beautiful visualizations for any city in the world, built using JavaScript and the OpenWeatherMap API.
 
-**➡️ [View Live Demo](https://example.com)**
-*(Add your live demo link here!)*
+**➡️ [View Live Demo]([https://example.com](https://weatherdashboard-by-mohseen.netlify.app/))**
+
 
 ---
 

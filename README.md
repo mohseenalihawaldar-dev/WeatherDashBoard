@@ -45,7 +45,7 @@ To get a local copy up and running, you will need to add your own API key.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-github-username/weather-dashboard.git](https://github.com/your-github-username/weather-dashboard.git)
+    https://github.com/mohseenalihawaldar-dev/WeatherDashBoard
     ```
     *(Replace `your-github-username` and `weather-dashboard` with your details!)*
 
